@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ant-design-vue": "4.x",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
