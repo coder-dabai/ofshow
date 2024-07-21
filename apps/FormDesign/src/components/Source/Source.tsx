@@ -1,10 +1,14 @@
 import { defineComponent } from "vue";
+import SourceContainer from './SourceContainer'
+import baseList from './base.ts'
 
 export default defineComponent({
   name: 'Source',
   setup() {
     return () => (
-      <div class="w-full h-full">物料区域</div>
-    )
+      <div class="p-8px">
+        <SourceContainer title="基础组件" sourceList={baseList}></SourceContainer>
+      </div>
+    );
   }
 })
