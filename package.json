@@ -1,11 +1,13 @@
 {
   "name": "ofshow",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm run -F formdesign start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pnpm run -F dapps-admin start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "turbo run build"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "^9.27.0",
     "prettier": "^3.3.3",
+    "turbo": "^2.0.12",
     "unocss": "^0.61.5"
   }
 }

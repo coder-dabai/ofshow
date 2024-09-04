@@ -1,8 +1,8 @@
 import { defineComponent } from 'vue';
-import ToolBox from '../components/ToolBox/ToolBox';
-import Source from '../components/Source/Source';
-import Content from '../components/Content/Content';
-import Panel from '../components/Panel/Panel';
+import ToolBox from '../components/ToolBox/ToolBox.tsx';
+import Source from '../components/Source/Source.tsx';
+import Content from '../components/Content/Content.tsx';
+import Panel from '../components/Panel/Panel.tsx';
 
 export default defineComponent({
   name: 'DesignerApp',

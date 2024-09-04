@@ -1,13 +1,17 @@
 {
-  "name": "formdesign",
+  "name": "dapps-formdesign",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "main": "index.ts",
   "scripts": {
     "dev": "vite",
     "start": "vite --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
+  },
+  "exports": {
+    ".": "./index.ts"
   },
   "dependencies": {
     "ant-design-vue": "4.x",

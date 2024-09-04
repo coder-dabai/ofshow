@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DesignerApp from "./designer/index";
+import DesignerApp from "./designer/index.tsx";
 </script>
 
 <template>

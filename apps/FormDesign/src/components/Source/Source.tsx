@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import SourceContainer from './SourceContainer'
+import SourceContainer from './SourceContainer.tsx'
 import baseList from './base.ts'
 
 export default defineComponent({
