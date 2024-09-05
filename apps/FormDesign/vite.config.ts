@@ -4,12 +4,13 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 import UnoCSS from 'unocss/vite';
 import { resolve } from 'path';
 
+const resolveBaseRoot = (path: string) => `${resolve(__dirname, path)}/`;
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), vueJsx(), UnoCSS()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'), // 路径别名
+      '@/': resolveBaseRoot('src'), // 路径别名
     },
     extensions: ['.js', '.json', '.ts', '.vue', '.tsx'],
   },

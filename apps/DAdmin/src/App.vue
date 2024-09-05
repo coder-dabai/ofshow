@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DesignerApp } from 'dapps-formdesign'
+import { DesignerApp } from '@dapps/formdesign'
 </script>
 
 <template>

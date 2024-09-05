@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm run -F dapps-admin start",
+    "start": "pnpm run -F @dapps/admin start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "turbo run build"
   },

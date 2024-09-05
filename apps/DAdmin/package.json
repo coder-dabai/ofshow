@@ -1,5 +1,5 @@
 {
-  "name": "dapps-admin",
+  "name": "@dapps/admin",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "vue": "^3.4.21",
-    "dapps-formdesign": "workspace:^"
+    "@dapps/formdesign": "workspace:^"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

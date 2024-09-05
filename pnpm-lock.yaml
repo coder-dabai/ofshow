@@ -38,7 +38,7 @@ importers:
 
   apps/DAdmin:
     dependencies:
-      dapps-formdesign:
+      '@dapps/formdesign':
         specifier: workspace:^
         version: link:../FormDesign
       vue:
