@@ -1,6 +1,6 @@
 import { defineComponent, PropType } from 'vue';
 import type { Source as SourceType } from './index.d';
-import { getImgUrl } from '@/utils.ts';
+import { getImgUrl } from '@form/utils.ts';
 
 export default defineComponent({
   name: 'SourceContainer',

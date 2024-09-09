@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [vue(), vueJsx(), UnoCSS()],
   resolve: {
     alias: {
-      '@/': resolveBaseRoot('src'), // 路径别名
+      '@form/': resolveBaseRoot('./src'), // 路径别名
     },
     extensions: ['.js', '.json', '.ts', '.vue', '.tsx'],
   },

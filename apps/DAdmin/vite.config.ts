@@ -10,8 +10,7 @@ export default defineConfig({
   plugins: [vue(), vueJsx(), UnoCSS()],
   resolve: {
     alias: {
-      '@dapps/formdesign': resolve(__dirname, '../FormDesign'),
-      '@/': resolveBaseRoot('../FormDesign/src'), // 路径别名
+      '@form/': resolveBaseRoot('../FormDesign/src'), // 路径别名
     },
     extensions: ['.js', '.json', '.ts', '.vue', '.tsx'],
   },
