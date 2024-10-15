@@ -17,7 +17,8 @@
     "ant-design-vue": "4.x",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
