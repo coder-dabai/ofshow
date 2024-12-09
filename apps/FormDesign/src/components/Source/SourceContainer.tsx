@@ -20,8 +20,14 @@ export default defineComponent({
     const dataList = ref<any[]>(props.sourceList);
     const renderSouceList = () => {
       return (
-        <div class="flex flex-wrap justify-between">
-          <draggable v-model={dataList.value} item-key="key">
+        <div>
+          <draggable
+            v-model={dataList.value}
+            sort={false}
+            group={{ name: 'dForm', pull: 'clone', put: false }}
+            item-key="key"
+            class="flex flex-wrap justify-between"
+          >
             {{
               item: ({ element }: any) => (
                 <div class="w-118px px-8px py-4px mb-8px border-1px border-solid border-gray-300 rounded-6px flex items-center cursor-pointer">
@@ -31,14 +37,6 @@ export default defineComponent({
               ),
             }}
           </draggable>
-          {/* {props.sourceList.map(source => {
-            return (
-              <div class="w-118px px-8px py-4px mb-8px border-1px border-solid border-gray-300 rounded-6px flex items-center cursor-pointer">
-                <img src={getImgUrl(source.icon)} alt="" class="w-25px h-25px" />
-                <div class="text-12px ml-4px">{source.name}</div>
-              </div>
-            );
-          })} */}
         </div>
       );
     };
